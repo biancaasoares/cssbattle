@@ -13,7 +13,6 @@ body{
     float: left;
     width: 100px;
     height: 100px;
-    shape-outside: inset(20px 5px 30px 10px);
     background: #fdc57b;
     margin-left: 180px;
     margin-top: 60px;
@@ -24,7 +23,6 @@ body{
     float: left;
     width: 100px;
     height: 100px;
-    shape-outside: inset(20px 5px 30px 10px);
     background: #fdc57b;
     position: absolute;
     top: 400px;
@@ -35,7 +33,6 @@ body{
     float: left;
     width: 100px;
     height: 100px;
-    shape-outside: inset(20px 5px 30px 10px);
     background: #fdc57b;
     position: absolute;
     top: 400px;
@@ -46,7 +43,6 @@ body{
     float: left;
     width: 100px;
     height: 100px;
-    shape-outside: inset(20px 5px 30px 10px);
     background: #fdc57b;
     position: absolute;
     top: 60px;
