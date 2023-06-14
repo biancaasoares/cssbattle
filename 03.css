@@ -1,9 +1,11 @@
+/* para não calcular a dimensão com borda/margem (altura e largura)*/
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* organização dos elementos no geral e cor total de fundo */
 body{
     display: flex;
     justify-content: center;
@@ -13,7 +15,7 @@ body{
     background-color: #6592CF;
     position: absolute;
 }
-
+/* tamanho, posicionamento, cor, criação de quadrado (border-radius para formação de circulo), z-index (para ficar por cima do retângulo) */
 .quadrado-1{
     width: 1000px;
     height: 1000px;
@@ -22,7 +24,7 @@ body{
     border-radius: 50%;
     z-index: 1;
 }
-
+/* mesmo processo anterior, porém esta forma POR CIMA do primeiro circulo, com uma cor diferente  */
 .quadrado-2{
     width: 500px;
     height: 500px;
@@ -31,7 +33,7 @@ body{
     border-radius: 50%;
     z-index: 2;
 }
-
+/* mesmo processo porém com o circulo menor, por cima de todos os outros elementos */
 .quadrado-3{
     width: 150px;
     height: 150px;
@@ -41,6 +43,7 @@ body{
     z-index: 3;
 }
 
+/* primeiramente criando um triângulo para "ABRIGAR" */
 .quadrado-4{
     width: 1200px;
     height: 500px;

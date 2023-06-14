@@ -1,14 +1,15 @@
+/* para não calcular a dimensão com borda/margem (altura e largura)*/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 
 }
-
+/* Cor de fundo */
 body{
     background-color: #62374e;
 }
-
+/* Definindo as dimensões do 1° quadrado( posicionamento do elemento, largura, tamanho, cor, espaço a partir da margem) */
 .quadrado{
     float: left;
     width: 100px;
@@ -18,7 +19,7 @@ body{
     margin-top: 60px;
     position: absolute;
 }
-
+/* Definindo as dimensões do 2° quadrado( posicionamento do elemento, largura, tamanho, cor, espaço a partir da margem) */
 .quadrado2{
     float: left;
     width: 100px;
@@ -28,7 +29,7 @@ body{
     top: 400px;
     margin-left: 170px; 
 }
-
+/* Definindo as dimensões do 3° quadrado( posicionamento do elemento, largura, tamanho, cor, espaço a partir da margem) */
 .quadrado3{
     float: left;
     width: 100px;
@@ -38,7 +39,7 @@ body{
     top: 400px;
     margin-left: 900px;
 }
-
+/* Definindo as dimensões do 4° quadrado( posicionamento do elemento, largura, tamanho, cor, espaço a partir da margem) */
 .quadrado4{
     float: left;
     width: 100px;
